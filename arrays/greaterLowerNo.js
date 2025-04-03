@@ -16,38 +16,40 @@ const greaterLowerNo = (arr) => {
 };
 
 let arr = [20, 12, 3, 34, 3, 23, 2, 3.3, 22];
-// console.log("Number:", greaterLowerNo(arr));
+
 let number = greaterLowerNo(arr);
-console.log("Smallest No: ", +number.smallest);
-console.log("Largest No: ", +number.largest);
+console.log("Smallest No: ", number.smallest);
+console.log("Largest No: ", number.largest);
 
-/*
+
 const findMinMax = (arr) => {
-    // Initialize smallest and largest with the first element of the array
-    let smallest = arr[0];
-    let largest = arr[0];
+  // Initialize smallest and largest with the first element of the array
+  let smallest = arr[0];
+  let largest = arr[0];
 
-    // Loop through the array using forEach
-    arr.forEach((num) => {
-        if (num < smallest) {
-            smallest = num;
-        }
-        if (num > largest) {
-            largest = num;
-        }
-    });
+  // Loop through the array using forEach
+  arr.forEach((num) => {
+    if (num < smallest) {
+      smallest = num;
+    }
+    if (num > largest) {
+      largest = num;
+    }
+  });
 
-    return { smallest, largest };
+  return { smallest, largest };
 };
 
 // Example array
-const arr = [34, 15, 88, 2, -10, 44];
+const arr1 = [34, 15, 88, 2, -10, 44];
 
 // Call the arrow function
-const result = findMinMax(arr);
+const result = findMinMax(arr1);
 
 // Display the result
 console.log(`Smallest: ${result.smallest}`);
 console.log(`Largest: ${result.largest}`);
 
-*/
+console.log(typeof (result.largest), result.largest);
+console.log(typeof (number.largest), number.largest);
+
