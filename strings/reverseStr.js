@@ -5,6 +5,6 @@ const reveseStr = (str) => {
     }
     return reveseStr;
 };
-let x='Rajesh';
-let y=reveseStr(x);
-console.log(x+": Reversed as :"+y);
+let str='Rajesh';
+let revStr=reveseStr(str);
+console.log(str+": Reversed as :"+revStr);
