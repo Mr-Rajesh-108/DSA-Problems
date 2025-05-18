@@ -21,3 +21,5 @@ let target = 0;
 // Function Call
 console.log(hasPairWithSum(arr1, target)); // Output: true
 console.log(hasPairWithSum(arr2, target)); // Output: false
+
+
