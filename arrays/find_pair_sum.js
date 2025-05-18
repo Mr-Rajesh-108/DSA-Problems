@@ -9,7 +9,6 @@ function hasPairWithSum(arr, targetSum) {
         }
         seenNumbers.add(num);
     }
-
     return false; // No pair found
 }
 
